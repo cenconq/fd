@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Source-Han-Light";
+  src: url("/sites/all/themes/custom/hzy/fonts/Source-Han-Light/Source-Han-Light.eot");
+  src: url("/sites/all/themes/custom/hzy/fonts/Source-Han-Light/Source-Han-Light.eot?#iefix") format("embedded-opentype"), url("/sites/all/themes/custom/hzy/fonts/Source-Han-Light/Source-Han-Light.woff") format("woff"), url("/sites/all/themes/custom/hzy/fonts/Source-Han-Light/Source-Han-Light.ttf") format("truetype"), url("/sites/all/themes/custom/hzy/fonts/Source-Han-Light/Source-Han-Light.svg#Source-Han-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  border: 1px solid #34b793;
+  border-width: 4px 0 0; }
+html body {
+  font-size: 14px;
+  font-family: "Source-Han-Light" !important; }
+  html body #help {
+    background-color: #34b793;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    padding: 10px 15px; }
+
+header {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin: 150px 0 30px; }
+  header #search-box {
+    margin: 15px 0 0; }
+  header #search-box .form-type-textfield {
+    float: left;
+    margin: 0;
+    width: 87%; }
+  header #search-box input[type='text'] {
+    width: 100%;
+    background: none repeat scroll 0 0 #efefef;
+    border: 1px solid #efefef;
+    padding: 8px; }
+  header #search-box .search-btn {
+    background: #efefef;
+    height: 33px;
+    width: 13%;
+    display: block;
+    padding: 8px;
+    border: 0;
+    float: right; }
+
+nav#main-menu {
+  background: white; }
+  nav#main-menu ul.menu {
+    margin: 0; }
+    nav#main-menu ul.menu li {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      nav#main-menu ul.menu li a {
+        display: block;
+        color: black;
+        float: left;
+        padding: 9px 0;
+        font-size: 1.1em;
+        margin: 14px 40px 14px 0; }
+        nav#main-menu ul.menu li a:hover, nav#main-menu ul.menu li a.active-trail, nav#main-menu ul.menu li a.active {
+          border-bottom: 4px solid #34b793;
+          text-decoration: none;
+          cursor: pointer; }
+
+.content-bottom {
+  margin: 30px 0 0; }
+
+#slider-left,
+#slider-right {
+  color: #34b793;
+  font-size: 3em;
+  margin: 10px; }
+
+.bjqs-markers {
+  margin: 0;
+  position: absolute;
+  bottom: 0; }
+.bjqs-markers li a {
+  font-size: 0;
+  padding: 5px;
+  background: #34b793;
+  margin: 20px 5px;
+  border-radius: 50%;
+  border: 5px solid #34b793; }
+.bjqs-markers li.active-marker a {
+  background: white; }
+
+.section {
+  padding: 80px 0; }
+.section h1 {
+  font-size: 4.5em;
+  font-family: "Source-Han-Light";
+  color: #7d1498;
+  text-align: center;
+  margin: 30px 0 10px; }
+.section h2 {
+  font-size: 3.5em;
+  font-family: "Source-Han-Light";
+  margin: 0 0 20px; }
+.section .sub-title {
+  font-size: 1.8em;
+  text-align: center;
+  color: #383838;
+  margin: 20px 0 25px 0; }
+.section p {
+  font-size: 1.2em;
+  line-height: 1.5em; }
+  .section p.center {
+    margin: 0 100px 30px 100px; }
+
+#front-section-1 {
+  background-color: #f7efe6; }
+
+#front-section-5 {
+  background: url("/sites/all/themes/custom/hzy/images/front-bg.jpg") no-repeat top center;
+  background-size: cover;
+  min-height: 511px; }
+  #front-section-5 #slogan {
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 22px black;
+    text-align: center;
+    position: relative;
+    top: 144px; }
+
+#block-block-5 .content,
+#block-block-6 .content,
+#block-block-7 .content,
+#block-block-8 .content {
+  height: 350px;
+  background-color: #34b793; }
+
+#block-block-7 .content,
+#block-block-8 .content {
+  height: 160px;
+  background-color: #34b793; }
+
+#block-block-8 .content {
+  margin: 30px 0 0; }
+
+#block-views-slider-block {
+  height: 500px; }
+
+#block-menu-block-1 ul.menu li {
+  list-style: none; }
+  #block-menu-block-1 ul.menu li a {
+    display: block;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+    border-left: 4px solid #34b793;
+    margin: 0 0 9px; }
+
+footer {
+  margin: 30px 0; }
+  footer .featured-product-row img {
+    width: 100%;
+    height: auto; }
+  footer .featured-product-row .featured-product-title {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid #ececec;
+    border-width: 0 1px 1px;
+    margin: -1px 0 0; }
+
+.bottom {
+  background: #f3f3f3;
+  padding: 30px 0;
+  border-top: 1px solid #e8e5e5;
+  text-align: center; }
